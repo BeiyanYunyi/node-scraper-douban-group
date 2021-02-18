@@ -20,11 +20,26 @@ const group = "";
 const cookie = ''
 ```
 
-这两项分别对应着什么，在`index.js`里有更详细的说明，值得注意的是获取cookie的方法。
+这两项分别对应着什么，在`index.js`里有更详细的说明，值得注意的是获取 cookie 的方法。
 
 ## 获取cookie
 
-下面有几张图片，国内绝大多数区域无法正常加载，请翻墙后刷新页面查看。
+下面有几张图片，国内绝大多数区域无法正常加载，请翻墙后刷新页面查看。  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/1.png)  
+首先，你需要登录豆瓣并进入你小组的页面。  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/2.png)  
+按 F12 打开控制台，然后进入“网页”选项卡。  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/3.png)  
+然后刷新网页。页面加载完成后，把滚动条拖到最上面，点击第一条（图中下面画横线那一条）  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/4.png)  
+在右边一栏滚动并找到消息头-请求头。  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/5.png)  
+继续向下滚动，直至找到图示Cookie一项，右键-复制。  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/6.png)  
+在`index.js`里`cookie`一项的单引号里粘贴，然后删掉被框住的`Cookie: `。  
+![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/7.png)  
+最后应该是这样，注意单引号不要丢。  
+至此，cookie 配置完成。
 
 ## 启动爬虫
 
