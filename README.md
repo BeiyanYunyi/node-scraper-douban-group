@@ -39,7 +39,9 @@ const cookie = ''
 在`index.js`里`cookie`一项的单引号里粘贴，然后删掉被框住的`Cookie: `。  
 ![看不到请翻墙](https://cdn.jsdelivr.net/gh/lixiang810/fk-gfw/tutorial1/7.png)  
 最后应该是这样，注意单引号不要丢。  
-至此，cookie 配置完成。
+至此，cookie 配置完成。值得注意的是，cookie保存着你的登录状态，切勿泄露。
+同理，保存cookie时请使用小号登录，这样以后爬虫用的就是你的小号，从而避免大号因豆瓣反爬措施而遭到可能的封禁。
+在保存cookie后，若退出了保存cookie时登录的用户，则cookie失效，需要重复此步骤。
 
 ## 启动爬虫
 
