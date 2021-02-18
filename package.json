@@ -1,0 +1,20 @@
+{
+  "name": "scraper-douban-group",
+  "version": "0.0.114",
+  "description": "A crawler for Douban Groups.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler",
+    "scraper"
+  ],
+  "author": "Karl Marx",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "website-scraper": "^4.2.3"
+  }
+}
