@@ -5,12 +5,11 @@
 
 ## 从零开始安装
 
-先安装 [node.js](https://nodejs.org/zh-cn/download/) 和 [git](https://git-scm.com/downloads)  
-然后在命令提示符/PowerShell/Windows Terminal/其它终端模拟器里，通过`cd`命令切换到工作目录，再输入如下命令（一行一句）：
+先安装 [node.js](https://nodejs.org/zh-cn/download/)  
+再从[这里](https://github.com/lixiang810/node-scraper-douban-group/releases/)下载名为 source code 的 ZIP 包，解压之。
+然后在命令提示符 / PowerShell / Windows Terminal / 其它终端模拟器里，通过`cd`命令切换到解压出来的目录`node-scraper-douban-group`，再输入如下命令（一行一句）：
 
 ```bash
-git clone https://github.com/lixiang810/node-scraper-douban-group
-cd node-scraper-douban-group
 npm i
 ```
 
