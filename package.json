@@ -15,6 +15,7 @@
   "author": "Karl Marx",
   "license": "GPL-3.0",
   "dependencies": {
+    "archiver": "^5.2.0",
     "website-scraper": "^4.2.3"
   }
 }
