@@ -1,4 +1,5 @@
 # 豆瓣小组爬虫
+<a href="https://github.com/lixiang810/node-scraper-douban-group/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lixiang810/node-scraper-douban-group?style=for-the-badge"></a> <a href="https://github.com/lixiang810/node-scraper-douban-group/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/lixiang810/node-scraper-douban-group?style=for-the-badge"></a> <a href="https://github.com/lixiang810/node-scraper-douban-group/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/lixiang810/node-scraper-douban-group?style=for-the-badge"></a>  
 
 用 node.js 编写的豆瓣小组爬虫，将小组页面前25帖及其图片存档进`./archive/日期`下。  
 使用不要过于频繁，过于频繁可能导致你的账号被开启验证码 / 遭到封禁。
