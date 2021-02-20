@@ -17,7 +17,7 @@ npm i
 
 ```js
 const group = "";
-const cookie = ''
+const cookie = '';
 ```
 
 这两项分别对应着什么，在`index.js`里有更详细的说明，值得注意的是获取 cookie 的方法。
