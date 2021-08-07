@@ -1,3 +1,8 @@
+# 停止维护
+作者正在利用新技术（主要是微软 playwright）编写[新版本](https://github.com/lixiang810/NSDBG-Next)，提供 SQL 库等新功能。本项目因此停止维护，但已有的全部功能在失效前依旧有效（听君一席话，如听一席话）
+
+以下是原介绍：
+
 # 豆瓣小组爬虫
 <a href="https://github.com/lixiang810/node-scraper-douban-group/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/lixiang810/node-scraper-douban-group?style=for-the-badge"></a> <a href="https://github.com/lixiang810/node-scraper-douban-group/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/lixiang810/node-scraper-douban-group?style=for-the-badge"></a> <a href="https://github.com/lixiang810/node-scraper-douban-group/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/lixiang810/node-scraper-douban-group?style=for-the-badge"></a>  
 
